@@ -1,6 +1,6 @@
 # Embedding Visualization
 
-This is an example of Embedding Visualization using T-SNE
+This is an tiny example for Embedding Visualization using T-SNE
 
 ## How to works
 Run HTTP server:
@@ -11,15 +11,17 @@ Run HTTP server:
 
 ## Try with your dataset
 
-1. Prepare *.tsv files
+### 1. Prepare *.tsv files
 
 *.tsv have 2 files:
-- meta.tsv: contains labels of all images
-- vecs.tsv: conntains vector embedding of all images
+- meta.tsv: contains label of all images
+- vecs.tsv: contains vector embedding of all images
 
-In this examples, I use face images, and vector embedding is created by [InsightFace pretraind models](https://github.com/deepinsight/insightface). 
+In this examples, I use face images, and vector embedding is created by [InsightFace pretrained models](https://github.com/deepinsight/insightface). 
 
-2. Prepare sprites image
-Sprites image is created by concatation all your input images.
-View `create_sprites.py` files and try to RUN it:
+### 2. Prepare sprites image
+Sprites image is created by concatenating all your input images.
+
+Look at `create_sprites.py` file & try to RUN it:
+
 > `python create_sprites.py`
