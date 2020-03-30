@@ -1,0 +1,21 @@
+{
+    "embeddings": [
+        {
+            "tensorPath": "oss_data/vecs.tsv",
+            "tensorShape": [
+                13,
+                512
+            ],
+            "metadataPath": "oss_data/meta.tsv",
+            "tensorName": "EMBEDDING_VECTOR",
+            "sprite": {
+                "imagePath": "oss_data/sprites.png",
+                "singleImageDim": [
+                    40,
+                    40
+                ]
+            }
+        }
+    ],
+    "modelCheckpointPath": "Embedding Visualization"
+}
