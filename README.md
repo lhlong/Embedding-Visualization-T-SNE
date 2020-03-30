@@ -2,6 +2,8 @@
 
 This is an tiny example for Embedding Visualization using T-SNE
 
+[Demo online](https://lhlong.github.io/Embedding-Visualization-T-SNE/)
+
 ## How to works
 Run HTTP server:
 
